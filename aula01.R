@@ -30,3 +30,21 @@ sd(x)
 median(x)
 max(x)
 min(x)
+
+
+nome <- c("Marcos","Pedro","Matheus")
+idade <- c(30,31,31)
+salario <- c(1230,1875,2010)
+
+cadastro <- data.frame(nome,idade,salario)
+cadastro
+
+filhos <- c(1,2,3)
+
+cadastro$filhos<- filhos
+cadastro$filhos
+
+
+prestacao <- c(350,280,415)
+cadastro$prestacao <- prestacao
+cadastro
